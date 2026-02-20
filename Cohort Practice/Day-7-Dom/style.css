@@ -1,0 +1,77 @@
+/* Reset & Default Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card p{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.card p span{
+  font-weight: 600;
+  color: royalblue;
+}
+
+.outer{
+  height: 10px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgb(201, 196, 196);
+}
+
+.inner{
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  background-color: green;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bottom button{
+  padding: 6px 13px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 9px;
+  border: 0;
+  font-weight: 600;
+}
+
+.bottom button:active{
+  scale: 0.95;
+}
